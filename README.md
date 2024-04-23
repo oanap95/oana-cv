@@ -1,2 +1,0 @@
-# oana-cv
-My CV
