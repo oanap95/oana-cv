@@ -138,7 +138,7 @@
         color: #242424
    }
 
-    @media screen and (max-width: 1140px){
+    @media screen and (max-width: 1192px){
         .cv-header {
             display: flex;
             flex-direction: column;
