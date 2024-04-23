@@ -1,0 +1,164 @@
+    
+    html{
+        font-size: 16px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    body{
+        margin: 0;
+        max-width: 1440px;
+        margin: auto;
+        border: 2px solid #811331;
+    }
+
+    .cv-header{
+        display: flex;
+        gap: 2rem;
+        padding: 2rem 8rem 2rem 8rem;
+        align-items: center;
+        background-color: #811331;
+    }
+
+    .cv-body hr{
+        color: #811331;
+        background-color: #811331; 
+        width: 2px;
+    }
+
+    .cv-header-item-text{
+        flex: 2;
+    }
+
+    .cv-header-item-photo{
+        flex: 0.5;
+    }
+
+    .cv-header-item-text h1{
+        font-size: 2rem;
+        font-weight: 600;
+        color: #fff;
+        line-height: 2.5rem;
+    }
+
+    
+    .cv-header-item-text h2{
+        font-size: 1.5rem;
+        line-height: 2rem;
+        color:#fff;
+        font-weight: 400;
+    }
+
+    .cv-header-item-text p, .cv-header-item-text a {
+        font-size: 1rem;
+        font-weight: normal;
+        line-height: 1.5rem;
+        color: #fff;
+    }
+
+    .cv-header-item-text a {
+        text-decoration: none;
+    }
+
+    .cv-header-item-text a:hover {
+        color:  #ffffff90;
+    }
+
+    .cv-header-item-photo img {
+        max-width: 250px;
+        border: 2px solid #811331;
+        border-radius: 50%;
+    }
+
+    .cv-body{
+        display: flex;
+        gap: 3rem;
+        padding: 2rem 8rem 2rem 8rem;
+    }
+
+    .cv-body-item-about{
+        flex: 1 1 0;
+    }
+
+    .cv-body-item-experience{
+        flex: 1 1 0;
+    }
+
+    .cv-body-item-about h2, .cv-body-item-experience h2{
+        font-size: 1.5rem;
+        line-height: 2rem;
+        color: #811331;
+        font-weight: 600;
+        margin-bottom: 2rem;
+    }
+
+    .cv-body-item-about h3, .cv-body-item-experience h3{
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: #81133190;
+        font-weight: 600;
+    }
+
+    .cv-body-item-about p, .cv-body-item-experience p{
+        font-size: 1rem;
+        font-weight: normal;
+        line-height: 1.5rem;
+        color: #242424;
+        margin-bottom: 2rem;
+    }
+
+    .cv-body-item-about li , .cv-body-item-experience li{
+        font-size: 1rem;
+        line-height: 1.5rem;
+        padding-left:0;
+        margin-bottom: 1rem;
+    }
+
+    .cv-body-item-about ul {
+        padding-left:0;
+    }
+
+    .cv-body-item-about ul {
+        list-style: none;
+    }
+
+    .cv-body-item-about i, .cv-body-item-experience i{
+        color: #81133190;
+    }
+
+   .tools-points-container{
+        display: flex;
+        gap: 1rem;
+   }
+
+   .tools-points-container-item{
+        flex: 1 1 0;
+   }
+
+   .grey i {
+        color: #242424
+   }
+
+    @media screen and (max-width: 1140px){
+        .cv-header {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            padding: 2rem 5rem 2rem 5rem;
+            align-items: center;
+            text-align: center;
+        }
+
+        .cv-body{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            padding: 2rem 5rem 2rem 5rem;
+            align-items: center;
+        }
+
+        .cv-body hr {
+            display: none;
+        }
+
+        
+    }
